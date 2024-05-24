@@ -1,0 +1,40 @@
+.footer {
+  background: $color-primary;
+  font-size: 1.8rem;
+  &__nav {
+    padding: 5rem 4rem;
+    border-bottom: 1px solid rgba($color: $color-secondary, $alpha: 0.6);
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      gap: 4rem;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  &__link {
+    color: $color-white;
+    text-decoration: none;
+  }
+  &__email {
+    padding: 5rem 4rem;
+    border-bottom: 1px solid rgba($color: $color-secondary, $alpha: 0.6);
+    p,
+    a {
+      color: $color-secondary;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+  &__copyright {
+    padding: 5rem 4rem;
+    p {
+      color: $color-secondary;
+      text-align: center;
+    }
+  }
+}

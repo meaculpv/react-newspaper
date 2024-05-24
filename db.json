@@ -1,5 +1,5 @@
 {
-  "posts": [
+  "news": [
     { "id": "1", "title": "a title", "tag": "Адебиет", "views": 100 },
     { "id": "2", "title": "another title", "tag": "Тарих", "views": 200 }
   ],
