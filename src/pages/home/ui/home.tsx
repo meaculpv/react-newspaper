@@ -1,24 +1,25 @@
-// import Masonry from 'react-responsive-masonry';
+import Masonry from 'react-responsive-masonry';
 import { useGetAllNewsQuery } from '@/entities/news/api/api';
-import { News } from '@/shared/types/News';
 
 export default function Home() {
-  const { data, error, isLoading } = useGetAllNewsQuery();
+  const { data } = useGetAllNewsQuery();
 
   return (
-    <>
-      <main className='home'>
-        <h1>Home page</h1>
-        {error ? (
-          <>Oh no, there was an error</>
-        ) : isLoading ? (
-          <>Loading...</>
-        ) : data ? (
-          data?.map((news: News) => <h2 key={news.id}>{news.title}</h2>)
-        ) : (
-          'asd'
-        )}
-      </main>
-    </>
+    <main className='home'>
+      <Masonry columns={3} gutter={'10px'}>
+        {data?.map((item) => (
+          <div className='news-card' key={item.id}>
+            <div className='news-card__image'>
+              <img src={item.images[0]} alt='news-image' />
+            </div>
+            <div className='news-card__text'>
+              <div className='news-card__tag'>{item.tag}</div>
+              <h3 className='news-card__title'>{item.title}</h3>
+              <div className='news-card__date'>{item.date}</div>
+            </div>
+          </div>
+        ))}
+      </Masonry>
+    </main>
   );
 }

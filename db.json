@@ -1,7 +1,105 @@
 {
   "news": [
-    { "id": "1", "title": "a title", "tag": "Адебиет", "views": 100 },
-    { "id": "2", "title": "another title", "tag": "Тарих", "views": 200 }
+    {
+      "id": "1",
+      "title": "Tech Giants Release New AI Models",
+      "description": "Major tech companies have released new AI models that promise to revolutionize various industries. These models are designed to perform complex tasks with greater accuracy and efficiency, leveraging advanced machine learning techniques. Experts believe that these innovations will significantly impact fields such as healthcare, finance, and transportation. The new AI models can process vast amounts of data at unprecedented speeds, enabling faster decision-making and improving outcomes across various applications. As companies continue to invest in AI research and development, the potential for these technologies to drive economic growth and societal progress becomes increasingly evident.",
+      "importantTake": "The advancements in AI technology are expected to enhance productivity and innovation.",
+      "images": ["https://source.unsplash.com/random/800x600/?technology"],
+      "date": "2024-05-24",
+      "tag": "Technology",
+      "likes": 120
+    },
+    {
+      "id": "2",
+      "title": "Global Markets Hit Record Highs",
+      "description": "Stock markets around the world have reached new highs amid economic recovery. Investors are showing renewed confidence as economic indicators point towards sustained growth. The surge in market activity is driven by positive developments in various sectors, including technology, healthcare, and consumer goods. Analysts suggest that the current trend reflects a broader optimism about the global economy's resilience and potential for future expansion. However, some caution that market volatility may still pose risks, and it is essential for investors to stay informed and make strategic decisions based on the latest market insights.",
+      "importantTake": "Investors are optimistic about the future of the global economy.",
+      "images": ["https://source.unsplash.com/random/800x600/?finance"],
+      "date": "2024-05-23",
+      "tag": "Finance",
+      "likes": 98
+    },
+    {
+      "id": "3",
+      "title": "New Species Discovered in Amazon Rainforest",
+      "description": "Scientists have discovered several new species of plants and animals in the Amazon rainforest. These findings highlight the rich biodiversity of the region and underscore the importance of conservation efforts. The newly discovered species include rare insects, vibrant plant life, and elusive mammals that had previously evaded detection. Researchers emphasize the need to protect the Amazon rainforest, as it plays a crucial role in maintaining ecological balance and supporting diverse life forms. Ongoing exploration and study of the rainforest are expected to reveal even more hidden treasures, contributing to our understanding of the natural world.",
+      "importantTake": "These discoveries highlight the importance of preserving biodiversity.",
+      "images": ["https://source.unsplash.com/random/800x600/?nature"],
+      "date": "2024-05-22",
+      "tag": "Environment",
+      "likes": 200
+    },
+    {
+      "id": "4",
+      "title": "Breakthrough in Cancer Research",
+      "description": "Researchers have made a significant breakthrough in cancer treatment, potentially saving millions of lives. The new therapy targets cancer cells more precisely, minimizing damage to healthy tissues and reducing side effects. Clinical trials have shown promising results, with many patients experiencing substantial improvements in their conditions. This advancement represents a major milestone in the fight against cancer and offers hope to countless individuals and families affected by the disease. Scientists continue to refine and optimize the treatment, aiming to make it widely available and affordable for all patients in need.",
+      "importantTake": "The new treatment shows promise in reducing cancer mortality rates.",
+      "images": ["https://source.unsplash.com/random/800x600/?health"],
+      "date": "2024-05-21",
+      "tag": "Health",
+      "likes": 250
+    },
+    {
+      "id": "5",
+      "title": "Historic Peace Agreement Signed",
+      "description": "A historic peace agreement has been signed between two long-standing adversaries. This accord marks a significant step towards resolving a conflict that has lasted for decades, bringing hope and stability to the region. The agreement includes provisions for disarmament, economic cooperation, and cultural exchanges, fostering a spirit of reconciliation and mutual understanding. Leaders from both sides have expressed their commitment to building a peaceful future and working together to address shared challenges. The international community has welcomed the agreement, pledging support for its implementation and the broader peace process.",
+      "importantTake": "The agreement is expected to bring lasting peace and stability to the region.",
+      "images": ["https://source.unsplash.com/random/800x600/?peace"],
+      "date": "2024-05-20",
+      "tag": "World",
+      "likes": 300
+    },
+    {
+      "id": "6",
+      "title": "Advancements in Renewable Energy",
+      "description": "Innovations in renewable energy technology are making it more efficient and accessible. Researchers have developed new methods to harness solar, wind, and hydroelectric power, significantly increasing their output and reducing costs. These advancements are crucial for addressing climate change and transitioning to a sustainable energy future. Governments and private companies are investing heavily in renewable energy projects, recognizing their potential to reduce carbon emissions and create green jobs. As these technologies continue to evolve, they are expected to play a central role in the global effort to combat climate change and ensure energy security.",
+      "importantTake": "These advancements could significantly reduce global reliance on fossil fuels.",
+      "images": ["https://source.unsplash.com/random/800x600/?energy"],
+      "date": "2024-05-19",
+      "tag": "Energy",
+      "likes": 150
+    },
+    {
+      "id": "7",
+      "title": "Major Breakthrough in Quantum Computing",
+      "description": "Scientists have achieved a major breakthrough in quantum computing, paving the way for future technological advancements. The new quantum computer can solve complex problems much faster than traditional computers, opening up new possibilities in fields such as cryptography, material science, and artificial intelligence. This breakthrough represents a significant leap forward in computing power and has the potential to revolutionize numerous industries. Researchers are now focused on scaling up the technology and making it more practical for real-world applications. The continued development of quantum computing is expected to drive innovation and transform the way we approach complex problems.",
+      "importantTake": "Quantum computing could revolutionize various fields, including cryptography and material science.",
+      "images": ["https://source.unsplash.com/random/800x600/?quantum"],
+      "date": "2024-05-18",
+      "tag": "Technology",
+      "likes": 180
+    },
+    {
+      "id": "8",
+      "title": "Global Efforts to Combat Climate Change",
+      "description": "Nations around the world are increasing their efforts to combat climate change and reduce carbon emissions. Governments are implementing policies to promote renewable energy, enhance energy efficiency, and protect natural ecosystems. International cooperation is crucial for addressing the global climate crisis, and recent summits have seen significant commitments from major emitters. Public awareness and activism are also playing a vital role, with communities advocating for stronger climate action. As the impacts of climate change become more apparent, the urgency to implement effective solutions and mitigate its effects is greater than ever.",
+      "importantTake": "International cooperation is crucial for addressing the global climate crisis.",
+      "images": ["https://source.unsplash.com/random/800x600/?climate"],
+      "date": "2024-05-17",
+      "tag": "Environment",
+      "likes": 220
+    },
+    {
+      "id": "9",
+      "title": "Innovative Education Programs Launched",
+      "description": "New innovative education programs are being launched to improve learning outcomes for students. These programs incorporate cutting-edge technology and personalized learning approaches to make education more engaging and effective. Educators are leveraging tools such as artificial intelligence, virtual reality, and adaptive learning platforms to tailor instruction to individual student needs. The goal is to enhance student engagement, foster critical thinking skills, and better prepare learners for the challenges of the future. As these programs are implemented, they are expected to transform the educational landscape and provide students with more opportunities for success.",
+      "importantTake": "These programs aim to make education more engaging and effective.",
+      "images": ["https://source.unsplash.com/random/800x600/?education"],
+      "date": "2024-05-16",
+      "tag": "Education",
+      "likes": 130
+    },
+    {
+      "id": "10",
+      "title": "Breakthrough in Space Exploration",
+      "description": "A new breakthrough in space exploration technology could make long-distance space travel more feasible. Scientists have developed advanced propulsion systems and life support technologies that can sustain astronauts on extended missions. This breakthrough opens up new possibilities for space exploration, including potential missions to Mars and beyond. Researchers are also exploring ways to harness resources from celestial bodies, which could support long-term space habitation. The continued advancements in space technology are expected to drive humanity's quest for exploration and discovery, pushing the boundaries of what is possible.",
+      "importantTake": "This breakthrough opens up new possibilities for space exploration and discovery.",
+      "images": ["https://source.unsplash.com/random/800x600/?space"],
+      "date": "2024-05-15",
+      "tag": "Space",
+      "likes": 170
+    }
   ],
   "comments": [
     { "id": "1", "text": "a comment about post 1", "postId": "1" },

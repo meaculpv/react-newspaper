@@ -1,5 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { newsApi } from '@/entities/news/api/api';
+import { setupListeners } from '@reduxjs/toolkit/query';
 
 export const store = configureStore({
   reducer: {
@@ -9,3 +10,5 @@ export const store = configureStore({
   middleware: (getDefaultMIddleware) =>
     getDefaultMIddleware().concat(newsApi.middleware),
 });
+
+setupListeners(store.dispatch);
