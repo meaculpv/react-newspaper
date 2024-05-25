@@ -8,7 +8,9 @@
       "images": ["https://source.unsplash.com/random/800x600/?technology"],
       "date": "2024-05-24",
       "tag": "Technology",
-      "likes": 120
+      "likes": 120,
+      "size": "large",
+      "fit": "full"
     },
     {
       "id": "2",
@@ -18,7 +20,9 @@
       "images": ["https://source.unsplash.com/random/800x600/?finance"],
       "date": "2024-05-23",
       "tag": "Finance",
-      "likes": 98
+      "likes": 98,
+      "size": "small",
+      "fit": "top"
     },
     {
       "id": "3",
@@ -28,7 +32,9 @@
       "images": ["https://source.unsplash.com/random/800x600/?nature"],
       "date": "2024-05-22",
       "tag": "Environment",
-      "likes": 200
+      "likes": 200,
+      "size": "medium",
+      "fit": "full"
     },
     {
       "id": "4",
@@ -38,7 +44,9 @@
       "images": ["https://source.unsplash.com/random/800x600/?health"],
       "date": "2024-05-21",
       "tag": "Health",
-      "likes": 250
+      "likes": 250,
+      "size": "small",
+      "fit": "top"
     },
     {
       "id": "5",
@@ -48,7 +56,9 @@
       "images": ["https://source.unsplash.com/random/800x600/?peace"],
       "date": "2024-05-20",
       "tag": "World",
-      "likes": 300
+      "likes": 300,
+      "size": "medium",
+      "fit": "full"
     },
     {
       "id": "6",
@@ -58,7 +68,9 @@
       "images": ["https://source.unsplash.com/random/800x600/?energy"],
       "date": "2024-05-19",
       "tag": "Energy",
-      "likes": 150
+      "likes": 150,
+      "size": "small",
+      "fit": "top"
     },
     {
       "id": "7",
@@ -68,7 +80,9 @@
       "images": ["https://source.unsplash.com/random/800x600/?quantum"],
       "date": "2024-05-18",
       "tag": "Technology",
-      "likes": 180
+      "likes": 180,
+      "size": "small",
+      "fit": "top"
     },
     {
       "id": "8",
@@ -78,7 +92,9 @@
       "images": ["https://source.unsplash.com/random/800x600/?climate"],
       "date": "2024-05-17",
       "tag": "Environment",
-      "likes": 220
+      "likes": 220,
+      "size": "medium",
+      "fit": "full"
     },
     {
       "id": "9",
@@ -88,7 +104,9 @@
       "images": ["https://source.unsplash.com/random/800x600/?education"],
       "date": "2024-05-16",
       "tag": "Education",
-      "likes": 130
+      "likes": 130,
+      "size": "small",
+      "fit": "top"
     },
     {
       "id": "10",
@@ -98,7 +116,9 @@
       "images": ["https://source.unsplash.com/random/800x600/?space"],
       "date": "2024-05-15",
       "tag": "Space",
-      "likes": 170
+      "likes": 170,
+      "size": "medium",
+      "fit": "full"
     }
   ],
   "comments": [

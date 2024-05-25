@@ -7,4 +7,6 @@ export interface News {
   date: string;
   tag: string;
   likes: number;
+  size: 'small' | 'medium' | 'large';
+  fit: 'full' | 'top';
 }
