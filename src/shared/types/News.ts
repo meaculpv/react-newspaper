@@ -10,3 +10,13 @@ export interface News {
   size: 'small' | 'medium' | 'large';
   fit: 'full' | 'top';
 }
+
+export interface NewsPagination {
+  first: string;
+  prev: null | string;
+  next: string;
+  last: string;
+  pages: string;
+  items: 20;
+  data: News[];
+}

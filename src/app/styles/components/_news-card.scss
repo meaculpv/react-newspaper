@@ -1,6 +1,11 @@
 .news-card {
   background: $color-white;
   cursor: pointer;
+
+  &__link {
+    text-decoration: none;
+  }
+
   &.large.full {
     border-radius: 2rem;
     position: relative;

@@ -1,0 +1,17 @@
+.pagination {
+  margin: 3rem 0;
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  &__item {
+    font-size: 2.4rem;
+    color: $color-primary;
+
+    cursor: pointer;
+  }
+}
