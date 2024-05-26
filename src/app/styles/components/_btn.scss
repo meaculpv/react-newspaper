@@ -1,0 +1,32 @@
+.btn {
+  border: none;
+  outline: none;
+
+  &--like {
+    flex-basis: 50%;
+
+    color: $color-primary;
+    font-size: 2rem;
+    background: $color-primay-light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 5rem;
+    border-radius: 4rem;
+    transition: all 200ms ease;
+
+    &:active {
+      background: #ed7671;
+      color: #fff;
+    }
+
+    &:active .like {
+      color: #fff;
+    }
+  }
+}
+
+.like {
+  transition: all 200ms ease;
+}

@@ -1,16 +1,18 @@
 import { useGetAllNewsQuery } from '@/entities/news/api/api';
 import Masonry from 'react-layout-masonry';
 import clsx from 'clsx';
+import moment from 'moment';
 import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { useSelector } from 'react-redux';
 
 export default function Home() {
-  const { data } = useGetAllNewsQuery(1);
+  useGetAllNewsQuery(1);
+  const { articles } = useSelector((state) => state.news);
 
   return (
     <main className='home'>
       <Masonry columns={2} gap={'30px'}>
-        {data?.data?.map((item) => (
+        {articles.map((item) => (
           <Link
             key={item.id}
             to={`/news/${item.id}`}
@@ -28,7 +30,9 @@ export default function Home() {
                   {item.tag}
                 </div>
                 <h3 className='news-card__title'>{item.title}</h3>
-                <div className='news-card__date'>{item.date}</div>
+                <div className='news-card__date'>
+                  {moment(item.date).format('DD MMM YYYY')}
+                </div>
               </div>
             </div>
           </Link>
